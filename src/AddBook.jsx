@@ -56,7 +56,7 @@ function AddBook(props) {
            value={book.year}
            onChange={inputChanged}
            margin="dense"
-           label="Priority"
+           label="Year"
            fullWidth
          /> 
          <TextField
@@ -64,7 +64,7 @@ function AddBook(props) {
            value={book.isbn}
            onChange={inputChanged}
            margin="dense"
-           label="Priority"
+           label="ISBN"
            fullWidth
          />
          <TextField
@@ -72,7 +72,7 @@ function AddBook(props) {
            value={book.price}
            onChange={inputChanged}
            margin="dense"
-           label="Priority"
+           label="Price"
            fullWidth
          /> 
       </DialogContent>
